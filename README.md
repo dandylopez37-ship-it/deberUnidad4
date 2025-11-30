@@ -2,57 +2,6 @@
 
 Sistema Java para gestionar contenidos audiovisuales con arquitectura MVC, persistencia en archivos CSV y pruebas unitarias.
 
-## Descripción
-
-Aplicación que gestiona películas, series de TV y documentales aplicando principios SOLID y patrones de diseño MVC.
-
-## Características
-
-- Arquitectura MVC
-- Persistencia en archivos CSV
-- Operaciones CRUD completas
-- Búsqueda por título y género
-- Gestión de actores, temporadas e investigadores
-- Pruebas unitarias con JUnit 5
-- Principios SOLID aplicados
-
-## Estructura del Proyecto
-
-```
-src/
-├── poo/
-│   ├── AplicacionMVC.java           # Aplicación principal MVC
-│   └── PruebaAudioVisual.java       # Demo básica
-└── uni1a/
-    ├── ContenidoAudiovisual.java    # Clase abstracta base
-    ├── Pelicula.java                # Películas con actores
-    ├── SerieDeTV.java               # Series con temporadas
-    ├── Documental.java              # Documentales con investigadores
-    ├── Actor.java                   # Información de actores
-    ├── Temporada.java               # Temporadas de series
-    ├── Investigador.java            # Investigadores de documentales
-    ├── controlador/
-    │   └── ControladorContenido.java
-    ├── modelo/
-    │   └── CatalogoContenido.java
-    ├── servicio/
-    │   ├── IArchivable.java
-    │   └── ContenidoAudiovisualCSV.java
-    └── vista/
-        └── VistaConsola.java
-
-test/
-└── uni1a/
-    ├── PeliculaTest.java
-    ├── SerieDeTVTest.java
-    ├── DocumentalTest.java
-    ├── ActorTest.java
-    ├── TemporadaTest.java
-    ├── InvestigadorTest.java
-    └── modelo/
-        └── CatalogoContenidoTest.java
-```
-
 ## Principios SOLID Aplicados
 
 - **SRP**: Cada clase tiene una responsabilidad única
@@ -135,5 +84,4 @@ java -jar lib/junit-platform-console-standalone-1.10.1.jar --class-path bin --sc
 - Eclipse IDE o IntelliJ IDEA (opcional)
 
 ## Autor
-
-Universidad Politécnica Salesiana - Programación Orientada a Objetos
+Danny Lopez
