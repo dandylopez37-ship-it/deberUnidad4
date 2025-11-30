@@ -1,7 +1,0 @@
-tipo,id,titulo,duracion,genero,dato_especifico,datos_extra
-PELICULA,0,Avatar,162,Ciencia Ficcion,20th Century Studios,Sam Worthington|Britanico|47;Zoe Saldana|Estadounidense|45;Sigourney Weaver|Estadounidense|74;
-PELICULA,1,Titanic,195,Romance,Paramount Pictures,Leonardo DiCaprio|Estadounidense|49;Kate Winslet|Britanica|48;
-SERIE,2,Game of Thrones,60,Fantasia,8,1|10|2011;2|10|2012;3|10|2013;4|10|2014;5|10|2015;6|10|2016;7|7|2017;8|6|2019;
-SERIE,3,Breaking Bad,45,Drama,5,1|7|2008;2|13|2009;3|13|2010;4|13|2011;5|16|2012;
-DOCUMENTAL,4,Cosmos,45,Ciencia,Astronomia,Neil deGrasse Tyson|Astrofisica|Planetario Hayden
-DOCUMENTAL,5,Planeta Tierra,50,Naturaleza,Vida Salvaje,David Attenborough|Biologia|BBC Natural History
